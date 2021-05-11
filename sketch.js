@@ -22,11 +22,11 @@ function setup() {
   wall.shapeColor = color(80,80,80);
   
 }
-
+text("bullets and wall",300,50);
 function draw() {
   background(0);  
 
-  text("bullets and wall",300,50);
+  
 
   if(hasCollided(bullet,wall))
   {
